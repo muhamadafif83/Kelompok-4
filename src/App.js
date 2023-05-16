@@ -8,8 +8,8 @@ function App() {
     <BrowserRouter>
       <Switch>
       <Route component={landingpage} path="/" exact/>
-      <Route component={ProfileSiswa} path="/profile" />
-      <Route component={Materi} path="/materi" />
+      <Route component={ProfileSiswa} path="/pages/ProfileSiswa" />
+      <Route component={Materi} path="/pages/materiSiswa" />
       </Switch>
     </BrowserRouter>
   );
