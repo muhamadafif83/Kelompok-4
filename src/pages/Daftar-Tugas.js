@@ -1,15 +1,15 @@
-import Tugas from "../components/Con2"
+import Bindo from "../components/Con2"
 import Sidebar from "../components/nav"
 
-const Daftugas = () => {
+const Tugasindo = () => {
 
     return (
     <>
     <Sidebar/>
-    <Tugas/>
+    <Bindo/>
     
    </>
     )
 }
 
-export default Daftugas
+export default Tugasindo
