@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Tugasindo from './pages/Daftar-Tugas';
 
 const App = () => {
-  document.title = "Tugas Siswua";
+  document.title = "Tugas Siswa";
     return (
     <div className="flex">
       <Router>
