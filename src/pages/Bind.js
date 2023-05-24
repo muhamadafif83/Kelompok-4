@@ -1,4 +1,4 @@
-import Bindo from "../components/Cont-BI"
+import Bindo from "../components/Con-BI"
 import Sidebar from "../components/nav"
 
 const Tugasindo = () => {

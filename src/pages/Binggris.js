@@ -1,4 +1,4 @@
-import Bingg from "../components/Cons-Bing"
+import Bingg from "../components/Con-Bing"
 import Sidebar from "../components/nav"
 
 const Tugasinggris = () => {
