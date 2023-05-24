@@ -1,4 +1,4 @@
-import BD from "../components/Con-BD"
+import BD from "../components/InContent/Con-BD"
 import Sidebar from "../components/nav"
 
 const TugasBdaer = () => {

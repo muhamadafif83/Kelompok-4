@@ -1,4 +1,4 @@
-import Sebud from "../components/Con-Sebud"
+import Sebud from "../components/InContent/Con-Sebud"
 import Sidebar from "../components/nav"
 
 const TugasSenibudaya = () => {

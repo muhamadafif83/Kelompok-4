@@ -1,4 +1,4 @@
-import PPKN from "../components/Con-Ppkn"
+import PPKN from "../components/InContent/Con-Ppkn"
 import Sidebar from "../components/nav"
 
 const TugasPKN = () => {

@@ -1,4 +1,4 @@
-import PHP from "../components/Con-PHP"
+import PHP from "../components/InContent/Con-PHP"
 import Sidebar from "../components/nav"
 
 const TugasPHP = () => {

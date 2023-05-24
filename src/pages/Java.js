@@ -1,4 +1,4 @@
-import JAVA from "../components/Con-java"
+import JAVA from "../components/InContent/Con-java"
 import Sidebar from "../components/nav"
 
 const TugasJava = () => {

@@ -1,5 +1,5 @@
 import Sidebar from "../components/nav"
-import Mtk from "../components/Con-mtk"
+import Mtk from "../components/InContent/Con-mtk"
 
 
 const TugasMtk = () => {
