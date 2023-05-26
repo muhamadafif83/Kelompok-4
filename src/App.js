@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
+import Tugas from './pages/Home';
 import Tugasindo from './pages/Bind';
 import TugasMtk from './pages/Mtk';
 import Tugasinggris from './pages/Binggris';
@@ -10,10 +10,10 @@ import TugasMobile from './pages/Mobile';
 import TugasPHP from './pages/PHP';
 import TugasJava from './pages/Java';
 import TugasSenibudaya from './pages/Sebud';
-import landingpage from './pages/landingpage';
-import ProfileSiswa from './pages/ProfileSiswa';
+import Landingpage from './pages/landingpage';
 import Materi from "./pages/materiSiswa";
-import homepage from "./pages/homepage"; 
+import Profile from './pages/ProfileSiswa';
+import Homepage from './pages/homepage';
 
 const App = () => {
   document.title = "Tugas Siswa";
@@ -21,12 +21,12 @@ const App = () => {
     <div className="flex">
       <Router>
         <Routes>
-          <Route component={landingpage} path="/" exact/>
-          <Route component={ProfileSiswa} path="/profile" />
-          <Route component={Materi} path="/pages/materiSiswa" />
-          <Route component={homepage} path="/pages/homepage" />
-          <Route path='/tugas' element={<Home />} />
+          <Route path='/tugas' element={<Tugas />} />
+          <Route path='/materisiswa' element={<Materi />} />
+          <Route path='/' element={<Landingpage />} />
+          <Route path='/homepage' element={<Homepage />} />
           <Route path='/bindo' element={<Tugasindo />} />
+          <Route path='/Profile' element={<Profile />} />
           <Route path='/mtk' element={<TugasMtk />} />
           <Route path='/ing' element={<Tugasinggris />} />
           <Route path='/daerah' element={<TugasBdaer />} />

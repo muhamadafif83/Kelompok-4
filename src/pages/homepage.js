@@ -4,7 +4,7 @@ import materi from "../images/materi2.png";
 import tugas from "../images/tugas2.png";
 import logout from "../images/logout2.png";
 
-function homepage() {
+function Homepage() {
   return (
     <div className="flex justify-between">
       <div className="w-78 h-82 space-y-2">
@@ -27,4 +27,4 @@ function homepage() {
   );
 }
 
-export default homepage;
+export default Homepage;
