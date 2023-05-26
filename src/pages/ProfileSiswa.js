@@ -1,6 +1,10 @@
 import Navbar from "../components/Navbar";
 import male from "../images/male.png";
 import Name from "../components/nav/Name";
+<<<<<<< HEAD
+=======
+
+>>>>>>> alby
   
 const profile = () => {
   return (
@@ -9,7 +13,11 @@ const profile = () => {
       <Name/>
       <div className="ml-40">
         <div className=" ml-28 mt-16 p-7" style={{ backgroundColor: "#3C4462", borderRadius: "5px", border: "3px white solid ", width: "900px", height: "450px" }}>
+<<<<<<< HEAD
           <img className="ml-16" src={male} style={{ borderRadius: "300px", width: "200px" }} />
+=======
+          <img className="ml-16" alt="gambar" src={male} style={{ borderRadius: "300px", width: "200px" }} />
+>>>>>>> alby
           <div className="ml-5 p-3 text-stone-50" style={{ backgroundColor: "#1E1E1E", width: "300px", marginTop: "70px", borderRadius: "5px", border: "3px white solid" }}>
             <p>
               Nama : <span>Rangga Alif </span>

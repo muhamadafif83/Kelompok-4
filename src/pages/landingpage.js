@@ -1,7 +1,13 @@
 import React from 'react';
 import icon from '../images/icons.png';
 import foto from '../images/landing.png';
+<<<<<<< HEAD
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+=======
+import { Link } from 'react-router-dom';
+
+
+>>>>>>> alby
 
 const landingpage = () => {
   return (
@@ -9,7 +15,11 @@ const landingpage = () => {
       {/* navbar */}
       <div style={{ backgroundColor: '#030812', height: '80px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0 20px',borderBottom:"2px white solid" }}>
         <div className="ml-5" style={{ display: 'flex', alignItems: 'center' }}>
+<<<<<<< HEAD
           <img src={icon} width="50px" height="50px" />
+=======
+          <img src={icon} alt='icon' width="50px" height="50px" />
+>>>>>>> alby
           <span className="ml-3 text-white" style={{ fontWeight: 'bold', fontSize: '1.2rem' }}>Kelompok 4</span>
         </div>
         <Link to="/pages/ProfileSiswa" className="btn btn-outline" style={{ fontWeight: 'bold', marginRight: '10px' }}>Login</Link>
