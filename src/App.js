@@ -10,7 +10,7 @@ function App() {
       <Switch>
       <Route component={landingpage} path="/" exact/>
       <Route component={ProfileSiswa} path="/profile" />
-      <Route component={Materi} path="/materi" />
+      <Route component={Materi} path="/pages/materiSiswa" />
       <Route component={homepage} path="./pages/homepage" />
       </Switch>
     </BrowserRouter>
